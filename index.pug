@@ -1,0 +1,60 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/scss/styles.css")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin) 
+        link(href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet")
+        title Document
+    body
+        .container
+            .nav
+                .nav__brand 
+                    img.nav__brand-logo(src="/assets/logo.svg")
+                    .nav__brand-title
+                        span.nav__brand-name Dashboard                   
+                        span.nav__brand-subname v.01
+                nav.nav__menu 
+                    ul 
+                        li.nav__menu-item
+                            .nav__menu-item-info
+                                img.nav__menu-item-icon(src="/assets/key-square.svg", alt="")
+                                a.nav__menu-item-name(href="") Dashboard 
+                            img.nav__menu-item-chevron(src="/assets/chevron-right.svg", alt="")             
+                        li.nav__menu-item
+                            .nav__menu-item-info
+                                img.nav__menu-item-icon(src="/assets/3d-square.svg", alt="")
+                                a.nav__menu-item-name(href="") Product 
+                            img.nav__menu-item-chevron(src="/assets/chevron-right.svg", alt="")             
+                        li.nav__menu-item
+                            .nav__menu-item-info
+                                img.nav__menu-item-icon(src="/assets/user-square.svg", alt="")
+                                a.nav__menu-item-name(href="") Customers 
+                            img.nav__menu-item-chevron(src="/assets/chevron-right.svg", alt="")             
+                        li.nav__menu-item
+                            .nav__menu-item-info
+                                img.nav__menu-item-icon(src="/assets/wallet-money.svg", alt="")
+                                a.nav__menu-item-name(href="") Income 
+                            img.nav__menu-item-chevron(src="/assets/chevron-right.svg", alt="")             
+                        li.nav__menu-item
+                            .nav__menu-item-info
+                                img.nav__menu-item-icon(src="/assets/discount-shape.svg", alt="")
+                                a.nav__menu-item-name(href="") Promote 
+                            img.nav__menu-item-chevron(src="/assets/chevron-right.svg", alt="")             
+                        li.nav__menu-item
+                            .nav__menu-item-info
+                                img.nav__menu-item-icon(src="/assets/message-question.svg", alt="")
+                                a.nav__menu-item-name(href="") Help 
+                            img.nav__menu-item-chevron(src="/assets/chevron-right.svg", alt="")             
+                .nav__user
+                    img.nav__user-img(src="/assets/user-img.png", alt="") 
+                    .nav__user-info
+                        .nav__user-name Evano
+                        .nav__user-role Project Manager        
+            main
+                h2 hello
+        script(src="script.js") 
+            
+                

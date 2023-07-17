@@ -50,6 +50,10 @@
         justify-content: space-between;
         margin-bottom: 40px;
         cursor: pointer;
+
+        &:hover {
+            background: pink;
+        }
     }
 
     &__menu-item-name {

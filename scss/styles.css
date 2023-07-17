@@ -81,6 +81,9 @@ h6 {
   margin-bottom: 40px;
   cursor: pointer;
 }
+.nav__menu-item:hover {
+  background: pink;
+}
 .nav__menu-item-name {
   padding-left: 14px;
   color: #9197b3;

@@ -1,0 +1,15 @@
+main {
+    flex: 1;
+}
+.table {
+    background-color: $bg-white;
+    width: 968px;
+    height: 812px;
+    filter: drop-shadow(0px 10px 60px rgba(226, 236, 249, 0.5));
+    border-radius: 24px;
+
+    &__title {
+        margin-top: 41px;
+        margin-bottom: 51px;
+    }
+}

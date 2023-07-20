@@ -1,5 +1,5 @@
 .nav {
-    background-color: $bg-white;
+    background-color: white;
     width: 306px;
     height: 1198px;
     display: flex;
@@ -13,6 +13,7 @@
         align-items: center;
         gap: 8px;
         margin-bottom: 52px;
+        cursor: pointer;
     }
 
     &__brand-name {

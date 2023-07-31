@@ -1,0 +1,27 @@
+main
+    h1.table__title Hello Evano
+    .table
+        .table__header
+            .table__header-heading
+                h2 All Customers
+                p Active Members 
+            .table__header-search
+                .table__header-search-bar
+                    button 
+                        img(src="../assets/search.svg", alt="")
+                    input(type="text", placeholder="Search")
+
+            
+        .table__list
+        block content
+            .table__list-heading 
+                span Customer Name 
+                span Company
+                span Phone Number 
+                span Email 
+                span Country 
+                span Status
+            .table__line
+
+            include list-item.pug
+        .table__footer

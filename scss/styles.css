@@ -143,8 +143,103 @@ main {
   height: 812px;
   filter: drop-shadow(0px 10px 60px rgba(226, 236, 249, 0.5));
   border-radius: 24px;
+  padding-top: 30px;
+  padding-left: 38px;
+  padding-bottom: 41px;
 }
 .table__title {
   margin-top: 41px;
   margin-bottom: 51px;
+}
+.table__header {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.table__header-heading h2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.22px;
+}
+.table__header-heading p {
+  color: #16c098;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.14px;
+}
+.table__header-search-bar {
+  width: 216px;
+  height: 38px;
+  border-radius: 10px;
+  background: #f9fbff;
+  margin-right: 53px;
+  display: flex;
+  justify-items: center;
+  gap: 8px;
+}
+.table__header-search-bar button,
+.table input {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: #f9fbff;
+  cursor: pointer;
+}
+.table__header-search-bar ::-moz-placeholder {
+  color: #b5b7c0;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.12px;
+}
+.table__header-search-bar ::placeholder,
+.table input {
+  color: #b5b7c0;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.12px;
+}
+.table .list-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr;
+}
+.table .list-item span {
+  color: #292d32;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.14px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.table__list-heading {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr;
+  color: #b5b7c0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.14px;
+  padding-bottom: 14px;
+}
+.table__line {
+  width: 888px;
+  height: 1px;
+  background: #eee;
 }/*# sourceMappingURL=styles.css.map */
